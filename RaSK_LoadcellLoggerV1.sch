@@ -40,7 +40,7 @@ LIBS:KUT_PowerIC
 LIBS:KUT_Sensor
 LIBS:KUT_Switch
 LIBS:KUT_uController
-LIBS:RsSK_LoadcellLoggerV1-cache
+LIBS:RaSK_LoadcellLoggerV1-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
