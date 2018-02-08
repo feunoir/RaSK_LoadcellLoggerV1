@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name KUT_CommIC)(type KiCad)(uri "$(KIPRJMOD)/library/KUT_CommIC.pretty")(options "")(descr ""))
+  (lib (name KUT_Connector)(type KiCad)(uri "$(KIPRJMOD)/library/KUT_Connector.pretty")(options "")(descr ""))
+  (lib (name KUT_Device)(type KiCad)(uri "$(KIPRJMOD)/library/KUT_Device.pretty")(options "")(descr ""))
+  (lib (name KUT_Sensor)(type KiCad)(uri "$(KIPRJMOD)/library/KUT_Sensor.pretty")(options "")(descr ""))
+  (lib (name KUT_uController)(type KiCad)(uri "$(KIPRJMOD)/library/KUT_uController.pretty")(options "")(descr ""))
+)

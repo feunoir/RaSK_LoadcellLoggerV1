@@ -1,4 +1,4 @@
-update=2018/02/02 0:34:11
+update=2018/02/08 2:33:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=Library/KUT_Components
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,5 +61,12 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=Library/KUT_Components/KUT_AnalogDevice
+LibName34=Library/KUT_Components/KUT_CommIC
+LibName35=Library/KUT_Components/KUT_Connector
+LibName36=Library/KUT_Components/KUT_Device
+LibName37=Library/KUT_Components/KUT_DriveIC
+LibName38=Library/KUT_Components/KUT_PowerIC
+LibName39=Library/KUT_Components/KUT_Sensor
+LibName40=Library/KUT_Components/KUT_Switch
+LibName41=Library/KUT_Components/KUT_uController
