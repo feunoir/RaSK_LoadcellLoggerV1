@@ -1,4 +1,4 @@
-update=2018/02/08 2:33:30
+update=2018/02/08 20:46:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=Library/KUT_Components
+LibDir=Library/KUT_Components;C:/Users/Tanba/Documents/KiCad/Library/component/KUT_Components
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -70,3 +70,12 @@ LibName38=Library/KUT_Components/KUT_PowerIC
 LibName39=Library/KUT_Components/KUT_Sensor
 LibName40=Library/KUT_Components/KUT_Switch
 LibName41=Library/KUT_Components/KUT_uController
+LibName42=KUT_AnalogDevice
+LibName43=KUT_CommIC
+LibName44=KUT_Connector
+LibName45=KUT_Device
+LibName46=KUT_DriveIC
+LibName47=KUT_PowerIC
+LibName48=KUT_Sensor
+LibName49=KUT_Switch
+LibName50=KUT_uController
