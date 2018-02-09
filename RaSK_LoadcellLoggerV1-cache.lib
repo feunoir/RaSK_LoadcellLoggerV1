@@ -336,11 +336,11 @@ X NRST 5 -200 -200 100 R 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
-# STM32F303RE
+# STM32F303RE-RESCUE-RaSK_LoadcellLoggerV1
 #
-DEF STM32F303RE U 0 40 Y Y 1 F N
+DEF STM32F303RE-RESCUE-RaSK_LoadcellLoggerV1 U 0 40 Y Y 1 F N
 F0 "U" 0 50 60 H V C CNN
-F1 "STM32F303RE" 0 -50 60 H V C CNN
+F1 "STM32F303RE-RESCUE-RaSK_LoadcellLoggerV1" 0 -50 60 H V C CNN
 F2 "Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm" -100 -50 60 H I C CNN
 F3 "http://www.st.com/content/st_com/ja/products/microcontrollers/stm32-32-bit-arm-cortex-mcus/stm32-mainstream-mcus/stm32f3-series/stm32f303/stm32f303re.html" 0 50 60 H I C CNN
 DRAW
