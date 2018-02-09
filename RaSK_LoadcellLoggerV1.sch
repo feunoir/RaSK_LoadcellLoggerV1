@@ -188,17 +188,6 @@ TWE_mOUT
 Text Label 10000 3800 0    60   ~ 0
 TWE_mIN
 $Comp
-L SD_Card J3
-U 1 1 5A736789
-P 9950 2050
-F 0 "J3" H 9300 2600 50  0000 C CNN
-F 1 "SD_Card" H 10550 1500 50  0000 C CNN
-F 2 "KUT_Connector:AE-MICRO-SD-DIP" H 10150 2400 50  0001 C CNN
-F 3 "" H 9950 2050 50  0001 C CNN
-	1    9950 2050
-	1    0    0    1   
-$EndComp
-$Comp
 L Battery_Cell BT1
 U 1 1 5A79DD1C
 P 1300 1800
@@ -473,10 +462,6 @@ F 3 "" H 7150 1550 50  0001 C CNN
 	1    7150 1550
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10850 1850
-NoConn ~ 10850 1950
-NoConn ~ 10850 2150
-NoConn ~ 10850 2250
 $Comp
 L GND #PWR022
 U 1 1 5A79F56B
@@ -543,13 +528,13 @@ F 3 "" H 8450 1150 50  0001 C CNN
 	1    8450 1150
 	1    0    0    -1  
 $EndComp
-Text Label 8350 1750 2    60   ~ 0
-SD_MISO
-Text Label 8350 1950 2    60   ~ 0
-SD_CLK
 Text Label 8350 2250 2    60   ~ 0
+SD_MISO
+Text Label 8350 2050 2    60   ~ 0
+SD_CLK
+Text Label 8350 1850 2    60   ~ 0
 SD_MOSI
-Text Label 8350 2350 2    60   ~ 0
+Text Label 8350 1750 2    60   ~ 0
 SD_CS
 $Comp
 L Conn_01x01 J4
@@ -1094,41 +1079,25 @@ Wire Wire Line
 	5450 1650 5450 1050
 Connection ~ 5650 1050
 Wire Wire Line
-	8850 1850 8850 2700
-Wire Wire Line
 	8850 2150 9050 2150
-Wire Wire Line
-	9050 1850 8850 1850
-Connection ~ 8850 2150
 Wire Wire Line
 	8850 1550 8850 1650
 Wire Wire Line
 	8850 1650 9050 1650
 Wire Wire Line
-	8650 1550 8650 2450
-Wire Wire Line
-	8650 2450 9050 2450
-Wire Wire Line
 	8450 1150 8450 2500
-Wire Wire Line
-	8450 2050 9050 2050
 Wire Wire Line
 	8450 1250 8850 1250
 Wire Wire Line
 	8650 1250 8650 1350
-Connection ~ 8450 2050
 Wire Wire Line
 	8850 1250 8850 1350
 Connection ~ 8650 1250
 Connection ~ 8450 1250
 Wire Wire Line
-	8350 1950 9050 1950
-Wire Wire Line
 	9050 1750 8350 1750
 Wire Wire Line
 	8350 2250 9050 2250
-Wire Wire Line
-	8350 2350 9050 2350
 Wire Wire Line
 	4150 4800 4050 4800
 Wire Wire Line
@@ -1290,4 +1259,28 @@ F 3 "http://www.st.com/content/st_com/ja/products/microcontrollers/stm32-32-bit-
 	1    5800 3500
 	1    0    0    -1  
 $EndComp
+$Comp
+L Micro_SD_Card J3
+U 1 1 5A7DF022
+P 9950 1950
+F 0 "J3" H 9300 2550 50  0000 C CNN
+F 1 "Micro_SD_Card" H 10600 2550 50  0000 R CNN
+F 2 "KUT_Connector:AE-MICRO-SD-DIP" H 11100 2250 50  0001 C CNN
+F 3 "" H 9950 1950 50  0001 C CNN
+	1    9950 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2350 8650 2350
+Wire Wire Line
+	8650 2350 8650 1550
+Wire Wire Line
+	9050 1850 8350 1850
+Wire Wire Line
+	8850 2150 8850 2700
+Wire Wire Line
+	9050 1950 8450 1950
+Connection ~ 8450 1950
+Wire Wire Line
+	9050 2050 8350 2050
 $EndSCHEMATC
